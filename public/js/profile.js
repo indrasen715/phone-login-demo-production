@@ -108,7 +108,7 @@ function updateProfile(data) {
                     $('#spinner-update').hide()
                     window.location.reload();
 
-                }, 5000);
+                }, 2000);
             }
             if (data.err) {
                 $('#spinner-update').hide()
